@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile>
+    <Map Name="NEW" Link="build error test.htm" ResolvedId="1000" />
+    <Map Name="NEW1" Link="Topic with a Space.htm" ResolvedId="1001" />
+    <Map Name="NEW2" Link="Folder level 1/testinggg.htm" ResolvedId="1002" />
+    <Map Name="NEW3" Link="Folder level 1/test/againtest.htm" ResolvedId="1003" />
+    <Map Name="NEW4" Link="Folder level 1/test/another topic.htm" ResolvedId="1004" />
+</CatapultAliasFile>

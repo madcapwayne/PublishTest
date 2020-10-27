@@ -1,0 +1,10 @@
+var xmlAliasData = "";
+xmlAliasData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
+xmlAliasData += '<CatapultAliasFile>';
+xmlAliasData += '    <Map Name=\"NEW\" Link=\"build error test.htm\" ResolvedId=\"1000\" />';
+xmlAliasData += '    <Map Name=\"NEW1\" Link=\"Topic with a Space.htm\" ResolvedId=\"1001\" />';
+xmlAliasData += '    <Map Name=\"NEW2\" Link=\"Folder level 1/testinggg.htm\" ResolvedId=\"1002\" />';
+xmlAliasData += '    <Map Name=\"NEW3\" Link=\"Folder level 1/test/againtest.htm\" ResolvedId=\"1003\" />';
+xmlAliasData += '    <Map Name=\"NEW4\" Link=\"Folder level 1/test/another topic.htm\" ResolvedId=\"1004\" />';
+xmlAliasData += '</CatapultAliasFile>';
+MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
