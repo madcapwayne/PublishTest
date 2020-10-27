@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="exclude[Default.ScreenOnly or Template.OnlineLibrary or Template.Print]"
+  OutputFolder="C:\Users\wlester\Documents\Testing\S p a c e"
+  SearchEngine="MadCapSearch"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  MasterPage="/Content/Resources/csp.flmsp"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  Skin="/Project/Skins/HTML5 - Side Navigation.flskn"
+  AliasFile="/Project/Advanced/NewAlias.flali">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <Elasticsearch
+    Guid="790fcdd4-531e-43fd-bf60-4fec4ff18445" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Zendesk.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+</CatapultTarget>
